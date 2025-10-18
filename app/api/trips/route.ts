@@ -47,17 +47,3 @@ export async function GET() {
     return new NextResponse("Internal Error", { status: 500 });
   }
 }
-/**
- * leetcode..  system design.
- * 
- * 
- * build  speinf,..   backend ..
- * 
- * build........  keep on building
- * 
- * 
- * da,.....  ds.....
- * 
- * building............................
- * sleep only for: 6 hrs .  kt more than that 
- */

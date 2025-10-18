@@ -52,8 +52,6 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
             <span className="text-lg">
               {trip.startDate.toLocaleDateString()} -{" "}
               {trip.endDate.toLocaleDateString()}
-              {fmt(trip.startDate)} -{" "}
-              {fmt(trip.endDate)}
             </span>
           </div>
         </div>
@@ -92,8 +90,6 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
                       <p className="text-sm text-gray-500">
                         {trip.startDate.toLocaleDateString()} -{" "}
                         {trip.endDate.toLocaleDateString()}
-                        {fmt(trip.startDate)} -{" "}
-                       {fmt(trip.endDate)}
                         <br />
                         {`${Math.round(
                           (trip.endDate.getTime() - trip.startDate.getTime()) /
