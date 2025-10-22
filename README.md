@@ -29,7 +29,7 @@ TripTrace is a modern web application that helps you plan, track, and visualize 
 ## Tech Stack 💻
 
 - **Frontend**
-  - [Next.js 14](https://nextjs.org/) with App Router
+  - [Next.js 15](https://nextjs.org/) 
   - [React 19](https://react.dev/)
   - [TailwindCSS](https://tailwindcss.com/) for styling
   - [Radix UI](https://www.radix-ui.com/) for UI components
