@@ -3,7 +3,7 @@
 import { signIn, signOut } from "@/auth";
 
 export const login = async () => {
-  await signIn("github", { redirectTo: "/" });
+  await signIn("github", { redirectTo: "/trips" });
 };
 
 export const logout = async () => {
